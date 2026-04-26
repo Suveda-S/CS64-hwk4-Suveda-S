@@ -90,8 +90,8 @@ while:
     li $v0, 1
     syscall
 
-    addi $t3, 1
-    
+    addi $t3, $t3, 1
+
     j while
 
 
